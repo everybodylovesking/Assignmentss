@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form action="action_page">
+    <div class="container">
+    <h1> Register</h1>
+    <p> Fill this form to create an account.</p>
+    <hr>
+
+    <label for="first name">
+        <b> First Name</b></label>
+        <input type="text" placeholder=" Enter First name" name="first name"
+        id="firstname"  required>
+
+    <label for="last name ">
+        <b> Last Name</b> </label>
+        <input type="text" placeholder=" Enter Last Name"name="last name " id="last name"
+        required>
+        <hr>
+        <label for="email">
+            <b> Email</b> </label>
+            <input type="email" placeholder=" Enter Email"name="email " id="email"
+            required>
+            
+            <label for="phone number ">
+                <b> Phone Number</b> </label>
+                <input type="number" placeholder=" Enter your phone number"name="phone number" id="phone number"
+                required>
+            <label for=" Password ">
+                <b> Password</b> </label>
+                <input type="password" placeholder=" Enter Your password"name="psw-repeat " id="psw-repeat"
+                 required>
+                 <label for="Gender">
+                    <b> Gender </b> 
+                 <select name="Gender" id="select gender">
+                        <option value=" "> select your gender</option>
+                        <option value=" Male"> Male</option>
+                        <option value=" Female"> Female</option>
+                        </select></label>
+                <label for= "Date of Birth" >
+                    <b> Date of Birth</b>
+                    
+                </label> <input type="date"
+                required>
+                <label for="Favourite color">
+                    <b> Favourite color</b>
+                
+                <select name="color" id="choose your favourite color">
+                    <option value=""> choose a color</option>
+                    <option value=" red"> red</option>
+                    <option value= " blue">blue</option>
+                    <option value=" white">white</option>
+                    <option value=" black">black</option>
+                    <option value=" purple">purple</option>
+                    <option value="yellow">yellow</option>
+                    <option value="green"> green</option>
+                    <option value="pink"> pink</option>
+                    <option value="orange"> orange</option>
+                    <option value="peach"> peach</option>
+                </select> </label>
+        <p> By creating an account you agree to our <a href="#">Terms and conditions.</a> </p>
+        <button type="submit" class="regsiterbtn"> Register </button>
+    </div>
+</form>
+
+    
+</body>
+</html>
